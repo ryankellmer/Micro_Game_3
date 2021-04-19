@@ -19,7 +19,8 @@ public class PlayerController : MonoBehaviour
 	private bool m_FacingRight = true;  
 	private Vector3 m_Velocity = Vector3.zero;
 
-	[Header("Events")]
+
+        [Header("Events")]
 	[Space]
 
 	public UnityEvent OnLandEvent;
@@ -91,4 +92,7 @@ public class PlayerController : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	
+
 }
